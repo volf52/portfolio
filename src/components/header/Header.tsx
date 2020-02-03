@@ -30,11 +30,11 @@ export const Header: React.FC = () => {
                             Resume
                         </a>
                     </li>
-                    <li>
+                    {/* <li>
                         <a className="smoothscroll" href="#portfolio">
                             Projects
                         </a>
-                    </li>
+                    </li> */}
                     {/* <li>
                         <a className="smoothscroll" href="#contact">
                             Contact
@@ -46,7 +46,7 @@ export const Header: React.FC = () => {
             {/* end #nav-wrap */}
             <div className="row banner">
                 <div className="banner-text">
-                    <h1 className="responsive-headline">I'm Arslan.</h1>
+                    <h1 className="responsive-headline">Hi, I'm Arslan.</h1>
                     <h3>
                         I'm a{" "}
                         <span>

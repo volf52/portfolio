@@ -7,7 +7,7 @@ export const About = () => {
                 <div className="three columns">
                     <img
                         className="profile-pic"
-                        src="images/profilepic.jpg"
+                        src="images/profilepic.png"
                         alt=""
                     />
                 </div>
