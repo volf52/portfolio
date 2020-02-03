@@ -11,7 +11,7 @@ export const Header: React.FC = () => {
                 >
                     Show navigation
                 </a>
-                <a className="mobile-btn" href="#" title="Hide navigation">
+                <a className="mobile-btn" href="/#" title="Hide navigation">
                     Hide navigation
                 </a>
                 <ul id="nav" className="nav">
@@ -32,12 +32,7 @@ export const Header: React.FC = () => {
                     </li>
                     <li>
                         <a className="smoothscroll" href="#portfolio">
-                            Works
-                        </a>
-                    </li>
-                    <li>
-                        <a className="smoothscroll" href="#testimonials">
-                            Testimonials
+                            Projects
                         </a>
                     </li>
                     <li>
@@ -51,14 +46,16 @@ export const Header: React.FC = () => {
             {/* end #nav-wrap */}
             <div className="row banner">
                 <div className="banner-text">
-                    <h1 className="responsive-headline">I'm Jonathan Doe.</h1>
+                    <h1 className="responsive-headline">I'm Arslan.</h1>
                     <h3>
-                        I'm a Manila based <span>graphic designer</span>,{" "}
-                        <span>illustrator</span> and <span>webdesigner</span>{" "}
-                        creating awesome and effective visual identities for
-                        companies of all sizes around the globe. Let's{" "}
+                        I'm a{" "}
+                        <span>
+                            Fullstack Developer (Python / React / C# / Java)
+                        </span>{" "}
+                        and <span>Machine Learning Engineer</span> creating
+                        awesome and effective web apps and bots. Let's{" "}
                         <a className="smoothscroll" href="#about">
-                            start scrolling
+                            start scrolling{" "}
                         </a>
                         and learn more{" "}
                         <a className="smoothscroll" href="#about">
@@ -69,38 +66,33 @@ export const Header: React.FC = () => {
                     <hr />
                     <ul className="social">
                         <li>
-                            <a href="#">
-                                <i className="fa fa-facebook" />
+                            <a href="https://github.com/volf52">
+                                <i className="fab fa-github" />
                             </a>
                         </li>
                         <li>
-                            <a href="#">
-                                <i className="fa fa-twitter" />
+                            <a href="https://www.linkedin.com/in/rslnkrmt2552/">
+                                <i className="fab fa-linkedin" />
                             </a>
                         </li>
                         <li>
-                            <a href="#">
-                                <i className="fa fa-google-plus" />
+                            <a href="https://stackoverflow.com/users/4567986/volf">
+                                <i className="fab fa-stack-overflow" />
                             </a>
                         </li>
                         <li>
-                            <a href="#">
-                                <i className="fa fa-linkedin" />
+                            <a href="/#">
+                                <i className="fab fa-free-code-camp" />
                             </a>
                         </li>
                         <li>
-                            <a href="#">
-                                <i className="fa fa-instagram" />
+                            <a href="/#">
+                                <i className="fab fa-twitter" />
                             </a>
                         </li>
                         <li>
-                            <a href="#">
-                                <i className="fa fa-dribbble" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i className="fa fa-skype" />
+                            <a href="/#">
+                                <i className="fab fa-skype" />
                             </a>
                         </li>
                     </ul>

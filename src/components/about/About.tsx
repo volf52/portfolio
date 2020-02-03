@@ -47,7 +47,7 @@ export const About = () => {
                         </div>
                         <div className="columns download">
                             <p>
-                                <a href="#" className="button">
+                                <a href="/#" className="button">
                                     <i className="fa fa-download" />
                                     Download Resume
                                 </a>
