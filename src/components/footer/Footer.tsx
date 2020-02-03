@@ -7,38 +7,48 @@ export const Footer: React.FC = () => {
                 <div className="twelve columns">
                     <ul className="social-links">
                         <li>
-                            <a href="/#">
-                                <i className="fa fa-facebook" />
+                            <a
+                                href="https://github.com/volf52"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <i className="fab fa-github" />
                             </a>
                         </li>
                         <li>
-                            <a href="/#">
-                                <i className="fa fa-twitter" />
+                            <a
+                                href="https://www.linkedin.com/in/rslnkrmt2552/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <i className="fab fa-linkedin" />
                             </a>
                         </li>
                         <li>
-                            <a href="/#">
-                                <i className="fa fa-google-plus" />
+                            <a
+                                href="https://stackoverflow.com/users/4567986/volf"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <i className="fab fa-stack-overflow" />
                             </a>
                         </li>
                         <li>
-                            <a href="/#">
-                                <i className="fa fa-linkedin" />
+                            <a
+                                href="https://www.freecodecamp.org/volf52"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <i className="fab fa-free-code-camp" />
                             </a>
                         </li>
                         <li>
-                            <a href="/#">
-                                <i className="fa fa-instagram" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/#">
-                                <i className="fa fa-dribbble" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/#">
-                                <i className="fa fa-skype" />
+                            <a
+                                href="https://twitter.com/volf_52"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <i className="fab fa-twitter" />
                             </a>
                         </li>
                     </ul>

@@ -14,12 +14,12 @@ export const Resume = () => {
                 <div className="nine columns main-col">
                     <div className="row item">
                         <div className="twelve columns">
-                            <h3>University of Life</h3>
+                            <h3>Yildiz Technical University</h3>
                             <p className="info">
-                                Master in Graphic Design <span>•</span>{" "}
-                                <em className="date">April 2007</em>
+                                Bachelors in Computer Engineering <span>•</span>{" "}
+                                <em className="date">May 2021</em>
                             </p>
-                            <p>
+                            {/* <p>
                                 Lorem ipsum dolor sit amet, consectetuer
                                 adipiscing elit. Aenean commodo ligula eget
                                 dolor. Aenean massa. Cum sociis natoque
@@ -30,11 +30,11 @@ export const Resume = () => {
                                 justo, fringilla vel, aliquet nec, vulputate
                                 eget, arcu. Nullam dictum felis eu pede mollis
                                 pretium.
-                            </p>
+                            </p> */}
                         </div>
                     </div>{" "}
                     {/* item end */}
-                    <div className="row item">
+                    {/* <div className="row item">
                         <div className="twelve columns">
                             <h3>School of Cool Designers</h3>
                             <p className="info">
@@ -52,7 +52,7 @@ export const Resume = () => {
                                 ornare odio. Sed non mauris vitae erat
                             </p>
                         </div>
-                    </div>{" "}
+                    </div>{" "} */}
                     {/* item end */}
                 </div>{" "}
                 {/* main-col end */}
@@ -136,12 +136,12 @@ export const Resume = () => {
                     <div className="bars">
                         <ul className="skills">
                             <li>
-                                <span className="bar-expand photoshop" />
-                                <em>Photoshop</em>
+                                <span className="bar-expand python"></span>
+                                <em>Python</em>
                             </li>
                             <li>
-                                <span className="bar-expand illustrator" />
-                                <em>Illustrator</em>
+                                <span className="bar-expand javascript" />
+                                <em>Javascript / Typescript</em>
                             </li>
                             <li>
                                 <span className="bar-expand wordpress" />

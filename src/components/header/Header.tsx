@@ -35,11 +35,11 @@ export const Header: React.FC = () => {
                             Projects
                         </a>
                     </li>
-                    <li>
+                    {/* <li>
                         <a className="smoothscroll" href="#contact">
                             Contact
                         </a>
-                    </li>
+                    </li> */}
                 </ul>{" "}
                 {/* end #nav */}
             </nav>{" "}
@@ -66,35 +66,55 @@ export const Header: React.FC = () => {
                     <hr />
                     <ul className="social">
                         <li>
-                            <a href="https://github.com/volf52">
+                            <a
+                                href="https://github.com/volf52"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
                                 <i className="fab fa-github" />
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/rslnkrmt2552/">
+                            <a
+                                href="https://www.linkedin.com/in/rslnkrmt2552/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
                                 <i className="fab fa-linkedin" />
                             </a>
                         </li>
                         <li>
-                            <a href="https://stackoverflow.com/users/4567986/volf">
+                            <a
+                                href="https://stackoverflow.com/users/4567986/volf"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
                                 <i className="fab fa-stack-overflow" />
                             </a>
                         </li>
                         <li>
-                            <a href="/#">
+                            <a
+                                href="https://www.freecodecamp.org/volf52"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
                                 <i className="fab fa-free-code-camp" />
                             </a>
                         </li>
                         <li>
-                            <a href="/#">
+                            <a
+                                href="https://twitter.com/volf_52"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
                                 <i className="fab fa-twitter" />
                             </a>
                         </li>
-                        <li>
+                        {/* <li>
                             <a href="/#">
                                 <i className="fab fa-skype" />
                             </a>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </div>

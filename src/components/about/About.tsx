@@ -14,45 +14,55 @@ export const About = () => {
                 <div className="nine columns main-col">
                     <h2>About Me</h2>
                     <p>
-                        Sed ut perspiciatis unde omnis iste natus error sit
-                        voluptatem accusantium doloremque laudantium, totam rem
-                        aperiam, eaque ipsa quae ab illo inventore veritatis et
-                        quasi architecto beatae vitae dicta sunt explicabo. Nemo
-                        enim ipsam voluptatem quia voluptas sit aspernatur aut
-                        odit aut fugit, sed quia consequuntur magni dolores eos
-                        qui ratione voluptatem sequi nesciunt. Neque porro
-                        quisquam est, qui dolorem ipsum quia dolor sit amet,
-                        consectetur, adipisci velit, sed quia non numquam eius
-                        modi tempora incidunt ut labore et dolore magnam aliquam
-                        quaerat voluptatem. Ut enim ad minima veniam, quis
-                        nostrum exercitationem ullam corporis suscipit
-                        laboriosam.
+                        I am a Python/Javascript ( Web / Software ) Developer
+                        and Machine Learning Engineer with a "deep" interest in
+                        robotics, reinforcement learning, data analysis and
+                        compiler design. Currently studying Computer Engineering
+                        at Yildiz Technical University, Istanbul. You can find
+                        more details about me at my{" "}
+                        <a
+                            href="https://www.linkedin.com/in/rslnkrmt2552/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <strong>LinkedIn</strong>
+                        </a>{" "}
+                        and{" "}
+                        <a
+                            href="https://github.com/volf52"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <strong>Github</strong>
+                        </a>{" "}
+                        page.
                     </p>
                     <div className="row">
                         <div className="columns contact-details">
                             <h2>Contact Details</h2>
                             <p className="address">
-                                <span>Jonathan Doe</span>
+                                <span>Muhammad Arslan</span>
                                 <br />
                                 <span>
-                                    1600 Amphitheatre Parkway
+                                    Safa Vakfi Edirnekapi Erkek Ogrenci Yurdu
                                     <br />
-                                    Mountain View, CA 94043 US
+                                    Derviş Ali mah. Uçbey sok. No:7 FATİH,
+                                    Istanbul 34087 Turkey
                                 </span>
                                 <br />
-                                <span>(123)456-7890</span>
+                                <span>+9050500993313</span>
                                 <br />
-                                <span>anyone@website.com</span>
+                                <span>rslnkrmt2552@gmail.com</span>
                             </p>
                         </div>
-                        <div className="columns download">
+                        {/* <div className="columns download">
                             <p>
                                 <a href="/#" className="button">
                                     <i className="fa fa-download" />
                                     Download Resume
                                 </a>
                             </p>
-                        </div>
+                        </div> */}
                     </div>{" "}
                     {/* end row */}
                 </div>{" "}

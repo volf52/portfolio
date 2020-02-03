@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { About, Contactus, Footer, Header, Resume } from "./components";
+import { About, Footer, Header, Resume } from "./components";
 
 const App = () => {
     return (
@@ -9,7 +9,7 @@ const App = () => {
             <About />
             <Resume />
             {/* <Portfolio /> */}
-            <Contactus />
+            {/* <Contactus /> */}
             <Footer />
         </div>
     );

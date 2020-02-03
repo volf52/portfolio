@@ -106,7 +106,7 @@ export const Contactus = () => {
                             <span>(123) 456-7890</span>
                         </p>
                     </div>
-                    <div className="widget widget_tweets">
+                    {/* <div className="widget widget_tweets">
                         <h4 className="widget-title">Latest Tweets</h4>
                         <ul id="twitter">
                             <li>
@@ -134,7 +134,7 @@ export const Contactus = () => {
                                 </b>
                             </li>
                         </ul>
-                    </div>
+                    </div> */}
                 </aside>
             </div>
         </section>
