@@ -50,13 +50,13 @@ const Work = () => {
                 </h1>
             </div>
             <div className="nine columns main-col">
-                {workData.map(val => (
-                    <div className="row item">
+                {workData.map((val, divIdx) => (
+                    <div key={divIdx} className="row item">
                         <div className="twelve columns">
                             <h3>{val.company}</h3>
 
-                            {val.titles.map(title => (
-                                <>
+                            {val.titles.map((title, idx) => (
+                                <React.Fragment key={idx}>
                                     <hr />
                                     <strong className="info">
                                         {title.title} <span>•</span>{" "}
@@ -65,14 +65,14 @@ const Work = () => {
                                             {title.end || "Present"}
                                         </em>
                                     </strong>
-                                    <p>
-                                        <ul>
-                                            {title.work.map(i => (
-                                                <li>• {i}.</li>
-                                            ))}
-                                        </ul>
-                                    </p>
-                                </>
+                                    <ul>
+                                        {title.work.map(i => (
+                                            <li key={i}>
+                                                <p>• {i}.</p>
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </React.Fragment>
                             ))}
                             <hr />
                         </div>
