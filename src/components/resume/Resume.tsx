@@ -4,36 +4,39 @@ import Work from "./Work";
 
 export const Resume = () => {
     return (
-        <section id="resume">
-            {/* Education
+        <React.Fragment>
+            <section id="resume">
+                {/* Education
       ----------------------------------------------- */}
-            <div className="row education">
-                <div className="three columns header-col">
-                    <h1>
-                        <span>Education</span>
-                    </h1>
-                </div>
-                <div className="nine columns main-col">
-                    <div className="row item">
-                        <div className="twelve columns">
-                            <h3>Yildiz Technical University</h3>
-                            <p className="info">
-                                Bachelors in Computer Engineering <span>•</span>{" "}
-                                <em className="date">May 2021</em>
-                            </p>
-                        </div>
+                <div className="row education">
+                    <div className="three columns header-col">
+                        <h1>
+                            <span>Education</span>
+                        </h1>
+                    </div>
+                    <div className="nine columns main-col">
+                        <div className="row item">
+                            <div className="twelve columns">
+                                <h3>Yildiz Technical University</h3>
+                                <p className="info">
+                                    Bachelors in Computer Engineering{" "}
+                                    <span>•</span>{" "}
+                                    <em className="date">May 2021</em>
+                                </p>
+                            </div>
+                        </div>{" "}
+                        {/* item end */}
                     </div>{" "}
-                    {/* item end */}
+                    {/* main-col end */}
                 </div>{" "}
-                {/* main-col end */}
-            </div>{" "}
-            {/* End Education */}
-            {/* Work */}
-            <Work />
-            {/* End Work */}
-            {/* Skills */}
-            <Skills />
-            {/* End skills */}
-        </section>
+                {/* End Education */}
+                {/* Work */}
+                <Work />
+                {/* End Work */}
+            </section>
+            <section id="skills">
+                <Skills />
+            </section>
+        </React.Fragment>
     );
 };
