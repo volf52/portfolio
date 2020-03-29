@@ -36,6 +36,8 @@ export const About = () => {
                             <strong>Github</strong>
                         </a>{" "}
                         page.
+                        <br />
+                        Open for freelance work.
                     </p>
                     <div className="row">
                         <div className="columns contact-details">
@@ -46,8 +48,8 @@ export const About = () => {
                                 <span>
                                     Safa Vakfi Edirnekapi Erkek Ogrenci Yurdu
                                     <br />
-                                    Derviş Ali mah. Uçbey sok. No:7 FATİH,
-                                    Istanbul 34087 Turkey
+                                    Derviş Ali Mah., Uçbey Sokak No:7, FATİH,
+                                    Istanbul 34087, Turkey
                                 </span>
                                 <br />
                                 <span>+9050500993313</span>

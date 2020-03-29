@@ -28,12 +28,10 @@ export const Resume = () => {
                 {/* main-col end */}
             </div>{" "}
             {/* End Education */}
-            {/* Work
-      ----------------------------------------------- */}
+            {/* Work */}
             <Work />
             {/* End Work */}
-            {/* Skills
-      ----------------------------------------------- */}
+            {/* Skills */}
             <Skills />
             {/* End skills */}
         </section>
